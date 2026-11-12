@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+.mcpb-cache/
+# Design notes kept on the author's Mac only.
+working-on/docs/

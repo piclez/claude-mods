@@ -1,0 +1,9 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Peter Dirickson" },
+  "description": "Claude Code mods: a subagent timeline pane and a what-am-I-working-on pane",
+  "plugins": [
+    { "name": "agent-chart", "source": "./agent-chart" },
+    { "name": "working-on", "source": "./working-on" }
+  ]
+}

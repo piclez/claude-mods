@@ -1,0 +1,6 @@
+{
+  "name": "agent-chart",
+  "version": "0.1.0",
+  "description": "Right-side pane with a live timeline chart of subagents: when each starts, what tool it is on, and how it ended",
+  "types": "./types/index.d.ts"
+}

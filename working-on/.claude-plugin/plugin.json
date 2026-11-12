@@ -1,0 +1,27 @@
+{
+  "name": "working-on",
+  "version": "0.1.0",
+  "description": "Right-side pane: what this session is working on, each task labelled by TypeSafe Jev with a category and a suggested model; can route each prompt to a model",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "typesafeApiKey": {
+      "type": "string",
+      "title": "TypeSafe API key",
+      "description": "Lets Jev label each task with a category and a suggested model. Without it the pane shows the summary only.",
+      "sensitive": true,
+      "required": false
+    },
+    "routing": {
+      "type": "string",
+      "title": "Model routing",
+      "description": "off: no routing. suggest: show Jev's model pick for each prompt in the status line. auto: switch the main conversation's model per prompt, within the guardrails.",
+      "options": [
+        "off",
+        "suggest",
+        "auto"
+      ],
+      "default": "suggest",
+      "required": false
+    }
+  }
+}
